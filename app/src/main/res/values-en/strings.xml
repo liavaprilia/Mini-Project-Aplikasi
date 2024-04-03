@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laundry Winns</string>
+    <string name="laundry_intro">Welcome to Laundry Winns, \nthe best place to do your laundry!</string>
+    <string name="tentang_aplikasi">About Us</string>
+    <string name="mulai">Start</string>
+    <string name="input_invalid">Cannot be empty</string>
+    <string name="kembali">Back</string>
+    <string name="nama_pelanggan">Customer name</string>
+    <string name="alamat_pelanggan">Customer Address</string>
+    <string name="berat_cucian">Laundry Weight (kg)</string>
+    <string name="hitung">Count</string>
+    <string name="atur_ulang">Reset</string>
+    <string name="bagikan">Share</string>
+    <string name="bagikan_template">Date Time: %4$s
+        \n------------------------------
+        \nCustomer Name: %1$s
+        \nCustomer Address: %2$s
+        \nLaundry Weight: %3$s kg
+        \nTotal Cost: %5$.2f
+        \nDiscount: %6$.2f
+        \n------------------------------
+        \nThank you!!!
+    </string>
+    <string name="copyright">Laundry Winns is an Android application for laundry services. With this application, you can easily calculate laundry costs and receive a discount if it reaches 5 kilograms. \n\nCopyright © 2024 Aprilia Maratushsholihah. \nAll rights reserved.</string>
+</resources>
