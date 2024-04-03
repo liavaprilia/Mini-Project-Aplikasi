@@ -174,38 +174,38 @@ fun ScreenContent(modifier: Modifier) {
             ),
             modifier = Modifier.fillMaxWidth()
         )
-        Text("Status Pembayaran:")
+        Text(text = stringResource(id = R.string.status_pembayaran))
         Row(verticalAlignment = Alignment.CenterVertically) {
             RadioButton(
                 selected = !statusPembayaran,
                 onClick = { statusPembayaran = !statusPembayaran },
                 enabled = !isHitungClicked
             )
-            Text("Belum Lunas")
+            Text(text = stringResource(id = R.string.belum_lunas))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 RadioButton(
                     selected = statusPembayaran,
                     onClick = { statusPembayaran = !statusPembayaran },
                     enabled = !isHitungClicked
                 )
-                Text("Lunas")
+                Text(text = stringResource(id = R.string.lunas))
             }
         }
         if (statusPembayaran) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("Metode Pembayaran:")
+                Text(text = stringResource(id = R.string.metode_pembayaran))
                 RadioButton(
                     selected = metodePembayaran == "Cash",
                     onClick = { if (!isHitungClicked && statusPembayaran) metodePembayaran = "Cash" },
                     enabled = statusPembayaran
                 )
-                Text("Cash")
+                Text(text = stringResource(id = R.string.cash))
                 RadioButton(
                     selected = metodePembayaran == "Transfer",
                     onClick = { if (!isHitungClicked && statusPembayaran) metodePembayaran = "Transfer" },
                     enabled = statusPembayaran
                 )
-                Text("Transfer")
+                Text(text = stringResource(id = R.string.transfer))
             }
         }
         //hitung

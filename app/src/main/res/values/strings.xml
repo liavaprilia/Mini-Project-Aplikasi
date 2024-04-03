@@ -24,5 +24,10 @@
         \n------------------------------
         \nTerima kasih!!!
     </string>
-
+    <string name="status_pembayaran">Status Pembayaran:</string>
+    <string name="lunas">Lunas</string>
+    <string name="belum_lunas">Belum Lunas</string>
+    <string name="metode_pembayaran">Metode Pembayaran:</string>
+    <string name="cash" translatable="false">Cash</string>
+    <string name="transfer" translatable="false">Transfer</string>
 </resources>

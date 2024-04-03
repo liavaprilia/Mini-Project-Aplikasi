@@ -23,4 +23,8 @@
         \nThank you!!!
     </string>
     <string name="copyright">Laundry Winns is an Android application for laundry services. With this application, you can easily calculate laundry costs and receive a discount if it reaches 5 kilograms. \n\nCopyright © 2024 Aprilia Maratushsholihah. \nAll rights reserved.</string>
+    <string name="status_pembayaran">Payment Status:</string>
+    <string name="lunas">Paid off</string>
+    <string name="belum_lunas">Not paid off</string>
+    <string name="metode_pembayaran">Payment Method:</string>
 </resources>
